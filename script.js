@@ -31,7 +31,7 @@ else {
     bigArray.push("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
   }
 
-
+// this is just to see if I have all the items in the bigArray
   console.log(bigArray);
 
 
@@ -44,60 +44,17 @@ else {
   }
   console.log(password);
 
-
-  // TODO: figure out how to add special characters to bigArray (if the user wants them in their password)
-
-
+//todo needs to put password into the generator on the webpage
 }
 
 function getRandomChar(x) {
   var randomIndex = Math.floor(Math.random() * bigArray.length);
-  var randomQ = bigArray[randomIndex] + " ";
+  var randomQ = bigArray[randomIndex];
 
 
 
   return randomQ
 }
-
-
-//With user's input, must pull from an array
-
-//function getRandomInt(max) {
-//  return Math.floor(Math.random() * Math.floor(max));}
-
-
-
-/*console.log(password);
-password = "abc";
-console.log(password);
-password = password + "def";
-console.log(password);*/
-
-
-
-
-//console.log(getRandomInt(upperChar.length));
-
-//console.log(upperChar[getRandomInt(upperChar.length)]);
-
-//console.log(upperChar[2 * 12]);
-
-
-
-
-
-  //console.log(upperChar.length,upperChar[3])
-
-//create prompt with criteria - create button ---> "how many characters would you like your password to contain? Please choose between 8-128 characters"
-//function to prompt user for password criteria
-
-
-//function: prompt user for characters for amount of characters
-    // store prompt in varlength = prompt
-    //if statement for amount of characters less than 8 or greater than 128
-        //alert must be greater than 8 and less than 129
-
-
 
 
 
